@@ -6,4 +6,8 @@ or maybe sometimes trolling the entire server, this might not always work to sca
 It uses the Roblox defualt chat GUI as a advantage, taking up the characters to make it make a new line, making it look like another person! Please notice that this mostly works better if you have a display name with 3 characters.
 
 # Updates
-None, and might never update.
+None, and might barely update.
+
+
+# Images (GUI IS TRASH)
+![Screenshot 2023-09-23 214822](https://github.com/oc9x97/systemchatter/assets/142158555/bc9a16a9-1526-4616-ac1e-917167a67546)
