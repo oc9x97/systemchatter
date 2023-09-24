@@ -3,7 +3,7 @@ This is like a thing that makes it look like the game is saying whatever message
 or maybe sometimes trolling the entire server, this might not always work to scare people but it does.
 
 # How It Works
-It uses the Roblox defualt chat GUI as a advantage, taking up the characters to make it make a new line, making it look like another person!
+It uses the Roblox defualt chat GUI as a advantage, taking up the characters to make it make a new line, making it look like another person! Please notice that this mostly works better if you have a display name with 3 characters.
 
 # Updates
 None, and might never update.
