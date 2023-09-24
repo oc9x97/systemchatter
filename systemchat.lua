@@ -1,6 +1,23 @@
 local replicatedStorage = game:GetService("ReplicatedStorage")
 local marketplaceService = game:GetService("MarketplaceService")
 local userInterfaceService = game:GetService("UserInputService")
+local randomMessages = {
+    "nice avatar bro, how much did it cost? it looks pretty expensive, might buy.",
+    "GUYS IS THE REAL TITAN SPEAKER MAN FROM THE SKIBIDI TOILET OMG CRAZY",
+    "Alright so like, if we all die I would like to say, you are trash at this game.",
+    "THE BLUE SMURF CAT JUST SAID WE LIVE WE LOVE WE LIE GUYS IS SO FUNNY",
+    "WE ARE ALL GONNA DIE, WHAT DO YOU HAVE TO SAY ABOUT THIS TAN15T?",
+    "SPED UP AUDIOS, MADE FOR THOSE PEOPLE WHO ARE JUST SPED MAINLY",
+    "im going to explode roblox hq, and i mean that as serious as i can be, alright?",
+    "is all falling apart, just like each and every one of my friendships i've have.",
+    "im an emo goth baddie, dont mess with me or i will turn into a dark wolf!!",
+    "ur legit the latest and newest edp445, and i have all of the proof, ima send it",
+    "would you rather click 10 roblox ads, or watch 10 youtube ads without skip?",
+    "grrrr, how dare you! we were friends kitten! i am turning into werewolf now!",
+    "dude where are all the women? i want to rizz one of them girls up so good lol",
+    "honestly, i reccomend having a 3 letter display name, people think is cool.",
+    "everyone keeps saying my messages in chat, are actually randomized, how?"
+}
 
 -- Get the game title
 local gameTitle = marketplaceService:GetProductInfo(game.PlaceId).Name
@@ -50,10 +67,11 @@ closeButton.Text = "X"
 closeButton.BackgroundColor3 = Color3.new(1, 0, 0) -- Set the background color (the "X" button) to red
 closeButton.Parent = frame
 
--- Function to send the message
+-- Function to send a random message
 local function sendMessage()
     local customMessage = textBox.Text
-    local message = "Oh, Hello there everybody, how was y'all day today? Hope the best silly! {" .. gameTitle .. "} " .. customMessage
+    local randomIndex = math.random(1, #randomMessages) -- Select a random message from the list
+    local message = randomMessages[randomIndex] .. " {" .. gameTitle .. "} " .. customMessage
     local remoteEvent = replicatedStorage:WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest")
     local args = {
         [1] = message,
