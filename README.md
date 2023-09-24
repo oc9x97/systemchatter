@@ -8,6 +8,8 @@ It uses the Roblox defualt chat GUI as a advantage, taking up the characters to 
 # Updates
 None, and might barely update.
 
+# READ NOW
+DOESNT REALLY WORK WITH SOME USERNAMES, 3 LETTER ONE IS MAINLY USED FOR THE TESTING OF THIS SCRIPT
 
 # Images (GUI IS TRASH)
 ![Screenshot 2023-09-23 214822](https://github.com/oc9x97/systemchatter/assets/142158555/bc9a16a9-1526-4616-ac1e-917167a67546)
